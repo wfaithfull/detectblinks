@@ -22,7 +22,7 @@ public class Experiment1 extends Experiment {
 
     @Override
     Map<String, Supplier<Detector<Double[]>>> getDetectors() {
-        return null;//Detectors.multivariates();
+        return Detectors.multivariatesF();
     }
 
 }
